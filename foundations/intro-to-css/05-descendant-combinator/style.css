@@ -1,0 +1,35 @@
+/*
+    1. Type and type
+    2. Class and class
+    3. Type and class
+    3. All
+*/
+
+/*div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}*/
+
+/*.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}*/
+
+/*div .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}*/
+
+div p,
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
