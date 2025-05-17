@@ -1,12 +1,19 @@
 .odd {
     background-color: pink;
-    font-family: Verdana, Dejavu Sans, sans-serif;
+    font-family: Verdana, "Dejavu Sans", sans-serif;
 }
 
-#first-id {
-    
+#second-element {
+    color: blue;
+    font-size: 36px;
 }
 
-#second-id {
+.adjusted-font {
+    font-size: 24px;
+}
 
+
+#fourth-element {
+    background-color: lightgreen;
+    font-weight: bold;
 }
