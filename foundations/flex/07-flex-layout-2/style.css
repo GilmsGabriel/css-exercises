@@ -24,6 +24,75 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+}
+
+/* Additions
+It is not best practice to duplicate the selectors like this,
+however I'm putting the additions in here to make it easier to
+see *my* solution.*/
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 1. Header */
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  align-content: center;
+  padding-left: 16px;
+}
+
+/* 2. Content */
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+/* 2.1 Sidebar */
+
+.sidebar {
+  flex: 1 0 auto;
+  padding: 16px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 16px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: 0;
+  font-size: 24px;
+}
+
+/* 2.2 Main content */
+
+.main-content {
+  display: flex;
+  flex-flow: wrap;
+  padding: 48px;
+  gap: 30px;
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+}
+
+/* 3. Footer */
+
+.footer {
+  text-align: center;
+  align-content: center;
 }
